@@ -1,0 +1,201 @@
+#connect {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .connect-heading {
+    margin-top: 9%;
+  }
+  
+  .connect-heading span {
+    color: #feda56;
+    font-weight: bold;
+  }
+  
+  #connect h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .sub-heading {
+    font-size: 1.3em;
+    margin-bottom: 40px;
+  }
+  
+  .connect-card {
+    max-width: 250px;
+    width: 70%;
+    margin: 0px 0px 0px 200px;
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: right;
+    float: left;
+  }
+  
+  .social-icons {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 10px;
+    margin-left: 100px;
+  }
+  
+  .social-icon {
+    color: #fff;
+  }
+  
+  .social-icons a img:hover {
+    opacity: 1;
+  }
+  
+  .social-icons a img {
+    width: 45px;
+    height: 45px;
+    opacity: 0.8;
+  }
+  
+  .get-in-touch {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .get-in-touch p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .get-in-touch button {
+    opacity: 0.9;
+    background-color: #3f3f3f;
+    width: 30%;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .get-in-touch button:hover {
+    opacity: 1;
+  }
+  
+  .check-out-profiles {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .check-out-profiles p {
+    font-size: 1.5em;
+  }
+  
+  .profile-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .profile-icons a img {
+    width: 45px;
+    height: 45px;
+    opacity: 0.8;
+    color: #ddd;
+  }
+  
+  .profile-icons a img:hover {
+    opacity: 1;
+  }
+  
+  .profile-card {
+    max-width: 250px;
+    width: 70%;
+    margin: 0px 0px 0px 500px;
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: right;
+  }
+  
+  /* Media query for tablets */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    #connect {
+      margin-top: 20%;
+    }
+  
+    .connect-card {
+      width: 30%;
+      margin-left: 100px;
+    }
+  
+    #connect p {
+      font-size: 22px;
+    }
+  
+    .get-in-touch button {
+      width: 30%;
+    }
+  
+    .profile-card {
+      margin: 0 0 0 28%;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media screen and (max-width: 767px) {
+    #connect {
+      text-align: center;
+      margin-top: 80%;
+    }
+  
+    .social-icons {
+      height: 50px;
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      gap: 35px;
+      padding: 15px 0 10px 0;
+      margin-left: 80px;
+    }
+  
+    .connect-card {
+      width: 60%;
+      margin-left: 15%;
+      margin-right: 15%;
+      padding: 0px 20px 0px 20px;
+      margin-bottom: 20px;
+    }
+  
+    .get-in-touch {
+      margin-top: 20px;
+    }
+  
+    .get-in-touch button {
+      width: 60%;
+    }
+  
+    .connect-text {
+      margin-top: 180px;
+    }
+  
+    #connect h2 {
+      font-size: 24px;
+      margin-top: -50px;
+    }
+    #connect p {
+      font-size: 20px;
+    }
+    .profile-card {
+      width: 60%;
+      margin-left: 15%;
+      margin-right: 15%;
+      padding: 15px 20px 10px 20px;
+      margin-bottom: 20px;
+    }
+  }
+  

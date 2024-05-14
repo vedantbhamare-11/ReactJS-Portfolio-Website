@@ -1,0 +1,72 @@
+#motto-section {
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .motto-heading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .motto-quote {
+    font-family: "Oswald", sans-serif;
+    font-size: 34px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 5px rgba(254, 218, 86, 0.7);
+  }
+  
+  .quote {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  .motto-quote span {
+    color: #feda56;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .motto-quote {
+      font-family: "Oswald", sans-serif;
+      font-size: 34px;
+      line-height: 1.5;
+      letter-spacing: 3px;
+      text-shadow: 2px 2px 5px rgba(255, 153, 0, 0.5);
+    }
+    .large-quotes {
+      font-size: 30px;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media screen and (max-width: 767px) {
+    #motto-section {
+      margin-top: 200px;
+      color: #fff;
+      text-align: center;
+    }
+  
+    .motto-heading {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+  
+    .motto-quote {
+      font-family: "Oswald", sans-serif;
+      font-size: 26px;
+      line-height: 1;
+      letter-spacing: 1px;
+      text-shadow: 2px 2px 5px rgba(255, 153, 0, 0.5);
+      margin-bottom: 200px;
+    }
+  
+    .quote {
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
+  
